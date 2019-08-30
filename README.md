@@ -59,7 +59,7 @@ return (
 
 #### useAxios(url | config) 
 
-Basic hook to make network calls.
+>Basic hook to make network calls.
  
  - `url | config` The request url or axios [request config](https://github.com/axios/axios#request-config) object.
 
@@ -74,7 +74,7 @@ Basic hook to make network calls.
 
  #### useAxiosRetry(url | config, options) 
 
- Hook to retry network call on error.
+ >Hook to retry network call on error.
  
  - `url | config` The request url or axios [request config](https://github.com/axios/axios#request-config) object.
 
@@ -91,7 +91,7 @@ Basic hook to make network calls.
 
 #### useAxiosInterval(url | config, interval) 
 
- Hook to make continuos network call after an interval (long polling). 
+ >Hook to do repeated network call after an interval (long polling). 
  
  - `url | config` The request url or axios [request config](https://github.com/axios/axios#request-config) object.
 
