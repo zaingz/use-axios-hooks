@@ -47,9 +47,7 @@ return (
 		{isLoading  &&  'Loading...'}
 		{data && JSON.stringify(data)}
 		{error && JSON.stringify(error)}
-		<button onCLick={() => cancel()>
-			Cancel Request
-		</button>
+		<button onClick={() => cancel()}>cancel</button>
 	</div>
 	)
 
