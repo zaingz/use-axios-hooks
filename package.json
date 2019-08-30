@@ -1,7 +1,7 @@
 {
   "name": "use-axios-hooks",
   "version": "0.0.1",
-  "description": "axios hooks for common api calls scenarios",
+  "description": "axios hooks for common network calls scenarios ",
   "author": "zaingz",
   "license": "MIT",
   "repository": "zaingz/use-axios-hooks",
