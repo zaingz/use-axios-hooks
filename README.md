@@ -47,7 +47,9 @@ return (
 		{isLoading  &&  'Loading...'}
 		{data && JSON.stringify(data)}
 		{error && JSON.stringify(error)}
-		<button onCLick={() => cancel()}>Cancel Request</button>
+		<button onCLick={() => cancel()>
+			Cancel Request
+		</button>
 	</div>
 	)
 
@@ -57,7 +59,7 @@ return (
 
 ## API
 
-##### useAxios(url | config) 
+#### useAxios(url | config) 
 
 Basic hook to make network calls.
  
@@ -72,7 +74,7 @@ Basic hook to make network calls.
  - `isCancelled` Boolean to indicate if request is canceled.
  `cancel` Function to cancel pending network call. (It uses axios [cancellation](https://github.com/axios/axios#cancellation) api).
 
- ##### useAxiosRetry(url | config, options) 
+ #### useAxiosRetry(url | config, options) 
 
  Hook to retry network call on error.
  
@@ -89,7 +91,7 @@ Basic hook to make network calls.
  - `isCancelled` Boolean to indicate if request is canceled.
  `cancel` Function to cancel retying.
 
-##### useAxiosInterval(url | config, interval) 
+#### useAxiosInterval(url | config, interval) 
 
  Hook to make continuos network call after an interval (long polling). 
  
