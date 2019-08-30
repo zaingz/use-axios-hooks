@@ -70,7 +70,7 @@ return (
  - `isLoading` Boolean to indicate if request is started but not completed.
  - `error` Error object returned by axios.
  - `isCancelled` Boolean to indicate if request is canceled.
- `cancel` Function to cancel pending network call. (It uses axios [cancellation](https://github.com/axios/axios#cancellation) api).
+ - `cancel` Function to cancel pending network call. (It uses axios [cancellation](https://github.com/axios/axios#cancellation) api).
 
  #### useAxiosRetry(url | config, options) 
 
@@ -87,7 +87,7 @@ return (
  - `isLoading` Boolean to indicate if request is started but not completed.
  - `error` Error object returned by axios.
  - `isCancelled` Boolean to indicate if request is canceled.
- `cancel` Function to cancel retying.
+ - `cancel` Function to cancel retying.
 
 #### useAxiosInterval(url | config, interval) 
 
@@ -104,7 +104,7 @@ return (
  - `isLoading` Boolean to indicate if request is started but not completed.
  - `error` Error object returned by axios.
  - `isCancelled` Boolean to indicate if request is canceled.
- `cancel` Function to cancel the polling.
+ - `cancel` Function to cancel the polling.
 
  
 
