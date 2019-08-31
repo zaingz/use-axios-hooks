@@ -1,0 +1,8 @@
+{
+  "short_name": "use-axios-hooks",
+  "name": "use-axios-hooks",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

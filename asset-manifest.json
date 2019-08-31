@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/use-axios-hooks/static/css/main.d131600a.chunk.css",
+    "main.js": "/use-axios-hooks/static/js/main.91295dd6.chunk.js",
+    "main.js.map": "/use-axios-hooks/static/js/main.91295dd6.chunk.js.map",
+    "runtime~main.js": "/use-axios-hooks/static/js/runtime~main.4b98f873.js",
+    "runtime~main.js.map": "/use-axios-hooks/static/js/runtime~main.4b98f873.js.map",
+    "static/js/2.6e941479.chunk.js": "/use-axios-hooks/static/js/2.6e941479.chunk.js",
+    "static/js/2.6e941479.chunk.js.map": "/use-axios-hooks/static/js/2.6e941479.chunk.js.map",
+    "index.html": "/use-axios-hooks/index.html",
+    "precache-manifest.039eb4da9f59498f0f77c0dac0480a70.js": "/use-axios-hooks/precache-manifest.039eb4da9f59498f0f77c0dac0480a70.js",
+    "service-worker.js": "/use-axios-hooks/service-worker.js",
+    "static/css/main.d131600a.chunk.css.map": "/use-axios-hooks/static/css/main.d131600a.chunk.css.map"
+  }
+}
