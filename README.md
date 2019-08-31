@@ -12,6 +12,8 @@
 
  [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/00a744ef-92c9-413f-906f-11c7d2bd2928/deploy-status)](https://app.netlify.com/sites/use-axios-hooks/deploys)
+
 ## Features
 
  - Simple and easy to use, no configuration needed.
