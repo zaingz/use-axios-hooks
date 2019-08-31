@@ -10,7 +10,9 @@
 
 > axios hooks for common network calls scenarios  
 
- [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://badge.fury.io/js/use-axios-hooks.svg)](https://badge.fury.io/js/use-axios-hooks) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
+
+ 
 ## Features
 
  - Simple and easy to use, no configuration needed.
@@ -53,6 +55,9 @@ return (
 }
 
 ```
+[![Edit practical-sky-tpi6c](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/practical-sky-tpi6c?fontsize=14)
+
+
 ## API
 
 #### useAxios(url | config) 
