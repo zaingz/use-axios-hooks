@@ -1,6 +1,5 @@
 {
   "name": "use-axios-hooks-example",
-  "homepage": "https://zaingz.github.io/use-axios-hooks",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -10,7 +9,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
-    "use-axios-hooks": "file:.."
+    "use-axios-hooks": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
