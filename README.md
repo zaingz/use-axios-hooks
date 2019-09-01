@@ -12,7 +12,8 @@
 
 [![npm version](https://badge.fury.io/js/use-axios-hooks.svg)](https://badge.fury.io/js/use-axios-hooks) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 
- 
+__Read here about my motivation for developing this library:__ https://medium.com/@zaingz/how-react-hooks-compares-to-redux-eba43788df46
+
 ## Features
 
  - Simple and easy to use, no configuration needed.
