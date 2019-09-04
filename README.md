@@ -36,9 +36,8 @@ Axios is `peerDependency` of this lib so make sure you install axios separately.
 
 ## Usage
 ```jsx
-
 import  React,  {  Component  }  from  'react'
-import  {  useAxios }  from  'use-axios-hooks'
+import  { useAxios }  from  'use-axios-hooks'
 
 
 const  Example  =  ()  =>  {
@@ -54,8 +53,57 @@ return (
 	)
 
 }
-
 ```
+Retry on error:
+```jsx
+import  React,  {  Component  }  from  'react'
+import  { useAxiosRetry }  from  'use-axios-hooks'
+
+
+const  Example  =  ()  =>  {
+const  [{data, isLoading, error, isCanceled},  cancel] = useAxiosRetry(
+    "https://api-will-fail/retry",
+    {
+      retryCount: 2,
+      retryInterval: 2000
+    }
+  );
+
+return (
+	<div>
+		{isLoading  &&  'Loading...'}
+		{data && JSON.stringify(data)}
+		{error && JSON.stringify(error)}
+		<button onClick={() => cancel()}>cancel retrying</button>
+	</div>
+	)
+
+}
+```
+Polling:
+```jsx
+import  React,  {  Component  }  from  'react'
+import  { useAxiosInterval }  from  'use-axios-hooks'
+
+
+const  Example  =  ()  =>  {
+const  [{data, isLoading, error, isCanceled},  cancel] = useAxiosInterval(
+    "https://awesome-api/poll",
+    4000
+  );
+
+return (
+	<div>
+		{isLoading  &&  'Loading...'}
+		{data && JSON.stringify(data)}
+		{error && JSON.stringify(error)}
+		<button onClick={() => cancel()}>cancel polling</button>
+	</div>
+	)
+
+}
+```
+
 [![Edit practical-sky-tpi6c](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/practical-sky-tpi6c?fontsize=14)
 
 
