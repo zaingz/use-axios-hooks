@@ -44,14 +44,13 @@ const  Example  =  ()  =>  {
 const  [{data, isLoading, error, isCanceled},  cancel] = useAxios('http://my-awesome-api/endpoint')
 
 return (
-	<div>
-		{isLoading  &&  'Loading...'}
-		{data && JSON.stringify(data)}
-		{error && JSON.stringify(error)}
-		<button onClick={() => cancel()}>cancel</button>
-	</div>
-	)
-
+  <div>
+    {isLoading  &&  'Loading...'}
+    {data && JSON.stringify(data)}
+    {error && JSON.stringify(error)}
+    <button onClick={() => cancel()}>cancel</button>
+  </div>
+)
 }
 ```
 Retry on error:
@@ -70,14 +69,13 @@ const  [{data, isLoading, error, isCanceled},  cancel] = useAxiosRetry(
   );
 
 return (
-	<div>
-		{isLoading  &&  'Loading...'}
-		{data && JSON.stringify(data)}
-		{error && JSON.stringify(error)}
-		<button onClick={() => cancel()}>cancel retrying</button>
-	</div>
-	)
-
+  <div>
+    {isLoading  &&  'Loading...'}
+    {data && JSON.stringify(data)}
+    {error && JSON.stringify(error)}
+    <button onClick={() => cancel()}>cancel retrying</button>
+  </div>
+)
 }
 ```
 Polling:
@@ -93,14 +91,13 @@ const  [{data, isLoading, error, isCanceled},  cancel] = useAxiosInterval(
   );
 
 return (
-	<div>
-		{isLoading  &&  'Loading...'}
-		{data && JSON.stringify(data)}
-		{error && JSON.stringify(error)}
-		<button onClick={() => cancel()}>cancel polling</button>
-	</div>
-	)
-
+  <div>
+    {isLoading  &&  'Loading...'}
+    {data && JSON.stringify(data)}
+    {error && JSON.stringify(error)}
+    <button onClick={() => cancel()}>cancel polling</button>
+  </div>
+)
 }
 ```
 
