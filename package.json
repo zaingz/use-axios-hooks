@@ -1,6 +1,6 @@
 {
   "name": "use-axios-hooks",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "axios hooks for common network calls scenarios",
   "author": "zaingz",
   "license": "MIT",
